@@ -70,7 +70,7 @@ namespace DMA_Active_RTEs_1
                 {
                     TestResult testResult = new TestResult
                     {
-                        ParameterName = "Active RTEs",
+                        ParameterName = "Active Database Errors",
                         DmaName = agent.Item1,
                         ReceivedValue = Convert.ToString(activeAlarms.Count(x => x.Severity == "Error" && agent.Item2.Equals(x.HostingAgentID) && x.ParameterName == "Database")),
                     };
