@@ -1,5 +1,4 @@
 namespace DMS_Active_ERR_DB_1
-namespace DMA_Active_RTEs_1
 {
     using System;
     using System.Collections.Generic;
