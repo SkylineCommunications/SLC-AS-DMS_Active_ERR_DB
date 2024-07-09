@@ -69,7 +69,7 @@ namespace DMS_Active_ERR_DB_1
                 {
                     TestResult testResult = new TestResult
                     {
-                        ParameterName = "Active Database Errors",
+                        ParameterName = "DMS Active ERR DB",
                         DmaName = agent.Item1,
                         ReceivedValue = Convert.ToString(activeAlarms.Count(x => x.Severity == "Error" && agent.Item2.Equals(x.HostingAgentID) && x.ParameterName == "Database")),
                     };
